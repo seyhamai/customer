@@ -3,11 +3,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Mina extends JFrame implements ActionListener {
+public class jjj extends JFrame implements ActionListener {
     private JTextField idField, lastNameField, firstNameField, phoneField;
     private JButton submitButton;
 
-    public Mina() {
+    public jjj() {
         setTitle("Customer Information");
         setSize(400, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -38,7 +38,7 @@ public class Mina extends JFrame implements ActionListener {
         add(phoneField);
 
         // Submit button
-        submitButton = new JButton("Previous");
+        submitButton = new JButton("Submit");
         submitButton.addActionListener(this);
         add(submitButton);
 
@@ -71,6 +71,6 @@ public class Mina extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new Mina();
+        new jjj();
     }
 }
